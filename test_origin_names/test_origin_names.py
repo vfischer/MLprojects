@@ -22,6 +22,11 @@ url = "/home/vince/MachineLearning/test_origin_names/name_origin_occurences_lett
 #names = ['name', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'origin']
 dataset = read_csv(url, sep=',', header=0)
 
+#Load test dataset for one shot prediction
+url_oneshot = "/home/vince/MachineLearning/test_origin_names/name_origin_occurences_letters_oneshot_validation.csv"
+#names = ['name', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'origin']
+dataset_oneshot = read_csv(url_oneshot, sep=',', header=0)
+
 #shuffle dataset to mix origins
 dataset = shuffle(dataset)
 #shape
@@ -54,7 +59,7 @@ X_validation_names = pd.DataFrame(dataset, columns=['name'])
 X = pd.DataFrame(dataset, columns=['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'])
 y = pd.DataFrame(dataset, columns=['origin'])
 
-X_train, X_validation, Y_train, Y_validation = train_test_split(X, y, test_size=0.20, shuffle=False)
+X_train, X_validation, Y_train, Y_validation = train_test_split(X, y, test_size=0.10, shuffle=False)
 
 X_validation_names = X_validation_names[X_validation_names.index.isin(Y_validation.index)]
 
@@ -72,7 +77,7 @@ models.append(('SVM', SVC(gamma='auto')))
 results =[]
 names = []
 for name, model in models:
-    kfold = StratifiedKFold(n_splits=2, random_state=1, shuffle=True)
+    kfold = StratifiedKFold(n_splits=5, random_state=1, shuffle=True)
     cv_results = cross_val_score(model, X_train, Y_train, cv=kfold, scoring='accuracy')
     results.append(cv_results)
     names.append(name)
@@ -87,6 +92,10 @@ for name, model in models:
 model = SVC(gamma='auto')
 model.fit(X_train, Y_train)
 
+#Cooment those lines if you want to use the validation dataet from sklearn (not a file you inputted)
+#X_validation_names= pd.DataFrame(dataset_oneshot, columns=['name'])
+#X_validation = pd.DataFrame(dataset_oneshot, columns=['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'])
+#Y_validation = pd.DataFrame(dataset_oneshot, columns=['origin'])
 
 # Make predictions on validation dataset
 predictions = model.predict(X_validation)

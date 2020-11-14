@@ -18,8 +18,8 @@ print(dataset.head(5))
 #print(dataset.groupby('origin').size())
 
 print(dataset['name'])
-print(dataset['name'][3])
-print(dataset['origin'][3])
+print(dataset['name'][0])
+print(dataset['origin'][0])
 print(len(dataset['name']))
 
 with open('name_origin_occurences_letters.csv', 'w', newline='') as csvfile_out:

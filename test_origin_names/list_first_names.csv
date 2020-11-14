@@ -1,458 +1,651 @@
-An,Chinese
-Bing,Chinese
-Chen,Chinese
-Chung,Chinese
-Confucius,Chinese
-Cong,Chinese
-Deshi,Chinese
-Dewei,Chinese
-Fo-hai,Chinese
-Fo-hsing,Chinese
-Gan,Chinese
-Gao,Chinese
-Genjo,Chinese
-Ho,Chinese
-Hsin,Chinese
-Huang fu,Chinese
-Hui-chao,Chinese
-HuiKo,Chinese
-Jiang,Chinese
-Jin,Chinese
-Jing,Chinese
-Jun,Chinese
-Kong,Chinese
-Lao-Tzu,Chinese
-Lee,Chinese
-Lei,Chinese
-Li,Chinese
-Li-Liang,Chinese
-Liang,Chinese
-Liko,Chinese
-Manchu,Chinese
-Ming,Chinese
-Niao-ka,Chinese
-On,Chinese
-Qing-Nan,Chinese
-Quon,Chinese
-Shen,Chinese
-Shing,Chinese
-Sun,Chinese
-Tung,Chinese
-Uang,Chinese
-Wang,Chinese
-Wen,Chinese
-Woo,Chinese
-Wu-pen,Chinese
-Xi-Wang,Chinese
-Xiaoping,Chinese
-Xin,Chinese
-Xing-fu,Chinese
-Yao,Chinese
-Ah lam,Chinese
-An,Chinese
-Bao,Chinese
-Chen,Chinese
-Chen-chio,Chinese
-Chen-tao,Chinese
-Chow,Chinese
-Chu hua,Chinese
-Chun,Chinese
-Chyou,Chinese
-Da-Shin,Chinese
-Da-xia,Chinese
-Fai,Chinese
-Fang,Chinese
-Fang hua,Chinese
-Genji,Chinese
-Guanyin,Chinese
-Hua,Chinese
-Hui fang,Chinese
-Jing Wei,Chinese
-Jun,Chinese
-Kimora,Chinese
-Le,Chinese
-Lee,Chinese
-Lei,Chinese
-Li,Chinese
-Li Hua,Chinese
-Li Mei,Chinese
-Li Ming,Chinese
-Lian,Chinese
-Lien,Chinese
-Lin,Chinese
-Ling,Chinese
-Lixue,Chinese
-Mee,Chinese
-Mei,Chinese
-Mingmei,Chinese
-Quan,Chinese
-Shu Fang,Chinese
-Ting,Chinese
-Ushi,Chinese
-Xiang,Chinese
-Xiao-Niao,Chinese
-Xiao-Xing,Chinese
-Xin,Chinese
-Xiu Mei,Chinese
-Yin,Chinese
-Yu,Chinese
-Zan,Chinese
-Zhengqiu,Chinese
-Ye,Chinese
-Yo,Chinese
-Yong,Chinese
-Yu,Chinese
-Yuan,Chinese
-Zhong,Chinese
-Zhu,Chinese
-Zhuang,Chinese
-Zhi,Chinese
-Zhijuan,Chinese
-Zi,Chinese
-Aleron,French
-Algernon,French
-Ames,French
-Amiens,French
-Aramis,French
-Audric,French
-Beau,French
-Blaise,French
-Bonar,French
-Boniface,French
-Boyce,French
-Briar,French
-Bruce,French
-Byron,French
-Cabal,French
-Cade,French
-Campbell,French
-Canaan,French
-Canon,French
-Carolus,French
-Carvell,French
-Chainey,French
-Chevy,French
-Ciel,French
-Circinus,French
-Colar,French
-Colville,French
-Courvoisier,French
-Coyne,French
-Dabney,French
-Dashiell,French
-Dax,French
-Delano,French
-Demont,French
-Destin,French
-Didier,French
-Dior,French
-Donatien,French
-Etienne,French
-Fabron,French
-Ferrand,French
-Franchot,French
-Francois,French
-Frasier,French
-Gage,French
-Garen,French
-Gareth,French
-Garland,French
-Garner,French
-Garrison,French
-Abril,French
-Alair,French
-Alberta,French
-Alize,French
-Amour,French
-Avril,French
-Babette,French
-Bailey,French
-Bedelia,French
-Bernadette,French
-Caroline,French
-Caron,French
-Cerise,French
-Chablis,French
-Chanel,French
-Charlotte,French
-Cheriss,French
-Cheryl,French
-Claudette,French
-Colette,French
-Courtesy,French
-Cydney,French
-Darcie,French
-Darlene,French
-Deja,French
-Denise,French
-Desiree,French
-Destiny,French
-Didina,French
-Dior,French
-Djab,French
-Dominique,French
-Doreen,French
-Elaine,French
-Elise,French
-Elita,French
-Elle,French
-Eloise,French
-Emeraude,French
-Etoile,French
-Evonne,French
-Fifine,French
-Fleur,French
-Fontanna,French
-Fortune,French
-Garland,French
-Gay,French
-Geneva,French
-Gervaise,French
-Ghislaine,French
-Gaston,French
-Gaylord,French
-Gerald,French
-Germain,French
-Geron,French
-Giles,French
-Glanville,French
-Gower,French
-Granger,French
-Grant,French
-Granville,French
-Guy,French
-Hackett,French
-Hello,French
-Holland,French
-Honore,French
-Jacques,French
-Jasper,French
-Javier,French
-Jean,French
-Jemond,French
-Jesper,French
-Labaron,French
-Lance,French
-Landry,French
-Laramie,French
-Laron,French
-Larrimore,French
-Launcelot,French
-Laurent,French
-Leggett,French
-Leverett,French
-Lionel,French
-Luc,French
-Mallory,French
-Marcel,French
-Mardian,French
-Marin,French
-Marshall,French
-Marvel,French
-Mason,French
-Merrill,French
-Montague,French
-Montgomery,French
-Montrell,French
-Montrose,French
-Mortimer,French
-Nazaire,French
-Neville,French
-Noel,French
-Harriet,French
-Honor,French
-Isabeau,French
-Ivette,French
-Jacqueline,French
-Jaimie,French
-Janel,French
-Jolie,French
-Juliet,French
-Kadence,French
-Kalet,French
-Kordell,French
-Kyrielle,French
-LOréal,French
-Larue,French
-Lauren,French
-Laverne,French
-Leala,French
-Leontyne,French
-Lesh,French
-Lisette,French
-Lisle,French
-Lois,French
-Loring,French
-Lucetta,French
-Lucie,French
-Lunette,French
-Lyla,French
-Lyle,French
-Maine,French
-Mallory,French
-Manon,French
-Mardi,French
-Margo,French
-Marianne,French
-Maribel,French
-Marie,French
-Marion,French
-Marvelle,French
-Maureen,French
-Mauve,French
-Mavis,French
-Melisenda,French
-Merane,French
-Merla,French
-Merle,French
-Merlyn,French
-Meryl,French
-Miette,French
-Mignon,French
-Odil,French
-Odilon,French
-Odo,French
-Olier,French
-Oliver,French
-Olympe,French
-Orane,French
-Orleans,French
-Orson,French
-Orville,French
-Ouida,French
-Page,French
-Paris,French
-Pascal,French
-Percy,French
-Pernell,French
-Pierre,French
-Platt,French
-Porter,French
-Quincy,French
-Rance,French
-Ranger,French
-Raul,French
-Ray,French
-Raynard,French
-Remi,French
-Romain,French
-Ross,French
-Royal,French
-Rupert,French
-Rush,French
-Russel,French
-Saber,French
-Sargent,French
-Satch,French
-Senior,French
-Sennett,French
-Sergeant,French
-Severin,French
-Seymour,French
-Sezni,French
-Sid,French
-Similien,French
-Sinclair,French
-Sinjon,French
-Sorrel,French
-Sumner,French
-Talbot,French
-Telford,French
-Tenenan,French
-Monique,French
-Moselle,French
-Nadia,French
-Naeva,French
-Nanette,French
-Narcisse,French
-Nathaly,French
-Ninon,French
-Noella,French
-Odetta,French
-Odette,French
-Odil,French
-Opaline,French
-Orane,French
-Oriel,French
-Ouida,French
-Page,French
-Pascale,French
-Perry,French
-Prunella,French
-Purvis,French
-Questa,French
-Quiterie,French
-Raylene,French
-Remy,French
-Renee,French
-Riva,French
-Rochelle,French
-Roslin,French
-Ruby,French
-Rui,French
-Sage,French
-Salene,French
-Sarotte,French
-Satin,French
-Scout,French
-Searlait,French
-Sebastiona,French
-Sennett,French
-Shannelle,French
-Shantay,French
-Shanton,French
-Sharice,French
-Shyann,French
-Sidonie,French
-Sigourney,French
-Solange,French
-Soleil,French
-Sorrel,French
-Sosie,French
-Thibaud,French
-Travis,French
-Tremeur,French
-Tugdual,French
-Tujan,French
-Turiau,French
-Tyson,French
-Umber,French
-Vachel,French
-Valeray,French
-Varden,French
-Varil,French
-Varocher,French
-Verdun,French
-Vere,French
-Verity,French
-Vermont,French
-Vernon,French
-Verrier,French
-Verrill,French
-Villard,French
-Villiers,French
-Xebec,French
-Yannick,French
-Stella,French
-Susie,French
-Suzette,French
-Sydney,French
-Sydni,French
-Symone,French
-Tallis,French
-Tallys,French
-Tayce,French
-Taylar,French
-Tempest,French
-Therese,French
-Tiffany,French
-Tilda,French
-Tolena,French
-Toni,French
-Tracy,French
-Troy,French
-Turquoise,French
-Vedette,French
-Vilette,French
-Yvonne,French
-Zanette,French
+An ,Chinese
+Bing ,Chinese
+Chen ,Chinese
+Chung ,Chinese
+Confucius ,Chinese
+Cong ,Chinese
+Deshi ,Chinese
+Dewei ,Chinese
+Fo-hai ,Chinese
+Fo-hsing ,Chinese
+Gan ,Chinese
+Gao ,Chinese
+Genjo ,Chinese
+Ho ,Chinese
+Hsin ,Chinese
+Huang fu ,Chinese
+Hui-chao ,Chinese
+HuiK'o ,Chinese
+Jiang ,Chinese
+Jin ,Chinese
+Jing ,Chinese
+Jun ,Chinese
+Kong ,Chinese
+Lao-Tzu ,Chinese
+Lee ,Chinese
+Lei ,Chinese
+Li ,Chinese
+Li-Liang ,Chinese
+Liang ,Chinese
+Liko ,Chinese
+Manchu ,Chinese
+Ming ,Chinese
+Niao-ka ,Chinese
+On ,Chinese
+Qing-Nan ,Chinese
+Quon ,Chinese
+Shen ,Chinese
+Shing ,Chinese
+Sun ,Chinese
+Tung ,Chinese
+Uang ,Chinese
+Wang ,Chinese
+Wen ,Chinese
+Woo ,Chinese
+Wu-pen ,Chinese
+Xi-Wang ,Chinese
+Xiaoping ,Chinese
+Xin ,Chinese
+Xing-fu ,Chinese
+Yao ,Chinese
+Ah lam ,Chinese
+An ,Chinese
+Bao ,Chinese
+Chen ,Chinese
+Chen-chio ,Chinese
+Chen-tao ,Chinese
+Chow ,Chinese
+Chu hua ,Chinese
+Chun ,Chinese
+Chyou ,Chinese
+Da-Shin ,Chinese
+Da-xia ,Chinese
+Fai ,Chinese
+Fang ,Chinese
+Fang hua ,Chinese
+Genji ,Chinese
+Guanyin ,Chinese
+Hua ,Chinese
+Hui fang ,Chinese
+Jing Wei ,Chinese
+Jun ,Chinese
+Kimora ,Chinese
+Le ,Chinese
+Lee ,Chinese
+Lei ,Chinese
+Li ,Chinese
+Li Hua ,Chinese
+Li Mei ,Chinese
+Li Ming ,Chinese
+Lian ,Chinese
+Lien ,Chinese
+Lin ,Chinese
+Ling ,Chinese
+Lixue ,Chinese
+Mee ,Chinese
+Mei ,Chinese
+Mingmei ,Chinese
+Quan ,Chinese
+Shu Fang ,Chinese
+Ting ,Chinese
+Ushi ,Chinese
+Xiang ,Chinese
+Xiao-Niao ,Chinese
+Xiao-Xing ,Chinese
+Xin ,Chinese
+Xiu Mei ,Chinese
+Yin ,Chinese
+Yu ,Chinese
+Zan ,Chinese
+Zhengqiu ,Chinese
+Ye ,Chinese
+Yo ,Chinese
+Yong ,Chinese
+Yu ,Chinese
+Yuan ,Chinese
+Zhong ,Chinese
+Zhu ,Chinese
+Zhuang ,Chinese
+Zhi ,Chinese
+Zhijuan ,Chinese
+Zi ,Chinese
+Aleron ,French
+Algernon ,French
+Ames ,French
+Amiens ,French
+Aramis ,French
+Audric ,French
+Beau ,French
+Blaise ,French
+Bonar ,French
+Boniface ,French
+Boyce ,French
+Briar ,French
+Bruce ,French
+Byron ,French
+Cabal ,French
+Cade ,French
+Campbell ,French
+Canaan ,French
+Canon ,French
+Carolus ,French
+Carvell ,French
+Chainey ,French
+Chevy ,French
+Ciel ,French
+Circinus ,French
+Colar ,French
+Colville ,French
+Courvoisier ,French
+Coyne ,French
+Dabney ,French
+Dashiell ,French
+Dax ,French
+Delano ,French
+Demont ,French
+Destin ,French
+Didier ,French
+Dior ,French
+Donatien ,French
+Etienne ,French
+Fabron ,French
+Ferrand ,French
+Franchot ,French
+Francois ,French
+Frasier ,French
+Gage ,French
+Garen ,French
+Gareth ,French
+Garland ,French
+Garner ,French
+Garrison ,French
+Abril ,French
+Alair ,French
+Alberta ,French
+Alize ,French
+Amour ,French
+Avril ,French
+Babette ,French
+Bailey ,French
+Bedelia ,French
+Bernadette ,French
+Caroline ,French
+Caron ,French
+Cerise ,French
+Chablis ,French
+Chanel ,French
+Charlotte ,French
+Cheriss ,French
+Cheryl ,French
+Claudette ,French
+Colette ,French
+Courtesy ,French
+Cydney ,French
+Darcie ,French
+Darlene ,French
+Deja ,French
+Denise ,French
+Desiree ,French
+Destiny ,French
+Didina ,French
+Dior ,French
+Djab ,French
+Dominique ,French
+Doreen ,French
+Elaine ,French
+Elise ,French
+Elita ,French
+Elle ,French
+Eloise ,French
+Emeraude ,French
+Etoile ,French
+Evonne ,French
+Fifine ,French
+Fleur ,French
+Fontanna ,French
+Fortune ,French
+Garland ,French
+Gay ,French
+Geneva ,French
+Gervaise ,French
+Ghislaine ,French
+Gaston ,French
+Gaylord ,French
+Gerald ,French
+Germain ,French
+Geron ,French
+Giles ,French
+Glanville ,French
+Gower ,French
+Granger ,French
+Grant ,French
+Granville ,French
+Guy ,French
+Hackett ,French
+Hello ,French
+Holland ,French
+Honore ,French
+Jacques ,French
+Jasper ,French
+Javier ,French
+Jean ,French
+Jemond ,French
+Jesper ,French
+Labaron ,French
+Lance ,French
+Landry ,French
+Laramie ,French
+Laron ,French
+Larrimore ,French
+Launcelot ,French
+Laurent ,French
+Leggett ,French
+Leverett ,French
+Lionel ,French
+Luc ,French
+Mallory ,French
+Marcel ,French
+Mardian ,French
+Marin ,French
+Marshall ,French
+Marvel ,French
+Mason ,French
+Merrill ,French
+Montague ,French
+Montgomery ,French
+Montrell ,French
+Montrose ,French
+Mortimer ,French
+Nazaire ,French
+Neville ,French
+Noel ,French
+Harriet ,French
+Honor ,French
+Isabeau ,French
+Ivette ,French
+Jacqueline ,French
+Jaimie ,French
+Janel ,French
+Jolie ,French
+Juliet ,French
+Kadence ,French
+Kalet ,French
+Kordell ,French
+Kyrielle ,French
+L'Oréal ,French
+Larue ,French
+Lauren ,French
+Laverne ,French
+Leala ,French
+Leontyne ,French
+Lesh ,French
+Lisette ,French
+Lisle ,French
+Lois ,French
+Loring ,French
+Lucetta ,French
+Lucie ,French
+Lunette ,French
+Lyla ,French
+Lyle ,French
+Maine ,French
+Mallory ,French
+Manon ,French
+Mardi ,French
+Margo ,French
+Marianne ,French
+Maribel ,French
+Marie ,French
+Marion ,French
+Marvelle ,French
+Maureen ,French
+Mauve ,French
+Mavis ,French
+Melisenda ,French
+Merane ,French
+Merla ,French
+Merle ,French
+Merlyn ,French
+Meryl ,French
+Miette ,French
+Mignon ,French
+Odil ,French
+Odilon ,French
+Odo ,French
+Olier ,French
+Oliver ,French
+Olympe ,French
+Orane ,French
+Orleans ,French
+Orson ,French
+Orville ,French
+Ouida ,French
+Page ,French
+Paris ,French
+Pascal ,French
+Percy ,French
+Pernell ,French
+Pierre ,French
+Platt ,French
+Porter ,French
+Quincy ,French
+Rance ,French
+Ranger ,French
+Raul ,French
+Ray ,French
+Raynard ,French
+Remi ,French
+Romain ,French
+Ross ,French
+Royal ,French
+Rupert ,French
+Rush ,French
+Russel ,French
+Saber ,French
+Sargent ,French
+Satch ,French
+Senior ,French
+Sennett ,French
+Sergeant ,French
+Severin ,French
+Seymour ,French
+Sezni ,French
+Sid ,French
+Similien ,French
+Sinclair ,French
+Sinjon ,French
+Sorrel ,French
+Sumner ,French
+Talbot ,French
+Telford ,French
+Tenenan ,French
+Monique ,French
+Moselle ,French
+Nadia ,French
+Naeva ,French
+Nanette ,French
+Narcisse ,French
+Nathaly ,French
+Ninon ,French
+Noella ,French
+Odetta ,French
+Odette ,French
+Odil ,French
+Opaline ,French
+Orane ,French
+Oriel ,French
+Ouida ,French
+Page ,French
+Pascale ,French
+Perry ,French
+Prunella ,French
+Purvis ,French
+Questa ,French
+Quiterie ,French
+Raylene ,French
+Remy ,French
+Renee ,French
+Riva ,French
+Rochelle ,French
+Roslin ,French
+Ruby ,French
+Rui ,French
+Sage ,French
+Salene ,French
+Sarotte ,French
+Satin ,French
+Scout ,French
+Searlait ,French
+Sebastiona ,French
+Sennett ,French
+Shannelle ,French
+Shantay ,French
+Shanton ,French
+Sharice ,French
+Shyann ,French
+Sidonie ,French
+Sigourney ,French
+Solange ,French
+Soleil ,French
+Sorrel ,French
+Sosie ,French
+Thibaud ,French
+Travis ,French
+Tremeur ,French
+Tugdual ,French
+Tujan ,French
+Turiau ,French
+Tyson ,French
+Umber ,French
+Vachel ,French
+Valeray ,French
+Varden ,French
+Varil ,French
+Varocher ,French
+Verdun ,French
+Vere ,French
+Verity ,French
+Vermont ,French
+Vernon ,French
+Verrier ,French
+Verrill ,French
+Villard ,French
+Villiers ,French
+Xebec ,French
+Yannick ,French
+Stella ,French
+Susie ,French
+Suzette ,French
+Sydney ,French
+Sydni ,French
+Symone ,French
+Tallis ,French
+Tallys ,French
+Tayce ,French
+Taylar ,French
+Tempest ,French
+Therese ,French
+Tiffany ,French
+Tilda ,French
+Tolena ,French
+Toni ,French
+Tracy ,French
+Troy ,French
+Turquoise ,French
+Vedette ,French
+Vilette ,French
+Yvonne ,French
+Zanette ,French
+Chung ,Vietnamese
+Dong ,Vietnamese
+Duy ,Vietnamese
+Gan ,Vietnamese
+Keemo ,Vietnamese
+Lam ,Vietnamese
+Laman ,Vietnamese
+Long ,Vietnamese
+Phuoc ,Vietnamese
+Phuong ,Vietnamese
+Quan ,Vietnamese
+Quan Van ,Vietnamese
+Quang Tu ,Vietnamese
+Ritchell ,Vietnamese
+So ,Vietnamese
+Tai ,Vietnamese
+Thai ,Vietnamese
+Thong ,Vietnamese
+Tinh ,Vietnamese
+Tong ,Vietnamese
+Viet ,Vietnamese
+Vui ,Vietnamese
+Yen ,Vietnamese
+Cara ,Vietnamese
+Duyen ,Vietnamese
+Hong ,Vietnamese
+Khanh ,Vietnamese
+Kieu ,Vietnamese
+Lan ,Vietnamese
+Lieu ,Vietnamese
+Linh ,Vietnamese
+Loan ,Vietnamese
+Ly ,Vietnamese
+Mai ,Vietnamese
+Mychau ,Vietnamese
+Nguyet ,Vietnamese
+Nhi ,Vietnamese
+Nhu ,Vietnamese
+Nhung ,Vietnamese
+Nu ,Vietnamese
+Sen ,Vietnamese
+Tai ,Vietnamese
+Tam ,Vietnamese
+Tan ,Vietnamese
+Thao ,Vietnamese
+Thuy ,Vietnamese
+Tien ,Vietnamese
+Trang ,Vietnamese
+Trinh ,Vietnamese
+Tuyen ,Vietnamese
+Ut ,Vietnamese
+Xuan ,Vietnamese
+Akamu ,Hawaiian
+Analu ,Hawaiian
+Aulii ,Hawaiian
+Bane ,Hawaiian
+Eowyn ,Hawaiian
+Havika ,Hawaiian
+Kahale ,Hawaiian
+Kahanu ,Hawaiian
+Kahoku ,Hawaiian
+Kaholo ,Hawaiian
+Kai ,Hawaiian
+Kaikeapona ,Hawaiian
+Kaipo ,Hawaiian
+Kalama ,Hawaiian
+Kale ,Hawaiian
+Kalei ,Hawaiian
+Kaleo ,Hawaiian
+Kalepa ,Hawaiian
+Kana ,Hawaiian
+Kane ,Hawaiian
+Kanoa ,Hawaiian
+Kapono ,Hawaiian
+Keahi ,Hawaiian
+Keanu ,Hawaiian
+Kekoa ,Hawaiian
+Kelii ,Hawaiian
+Keona ,Hawaiian
+Kepano ,Hawaiian
+Konala ,Hawaiian
+Laakea ,Hawaiian
+Laionela ,Hawaiian
+Loe ,Hawaiian
+Lono ,Hawaiian
+Lulani ,Hawaiian
+Maik ,Hawaiian
+Makaio ,Hawaiian
+Makan ,Hawaiian
+Malo ,Hawaiian
+Manu ,Hawaiian
+Mauli ,Hawaiian
+Meka ,Hawaiian
+Moke ,Hawaiian
+Nahele ,Hawaiian
+Nalani ,Hawaiian
+Okalani ,Hawaiian
+Oke ,Hawaiian
+Okelani ,Hawaiian
+Oliana ,Hawaiian
+Onaona ,Hawaiian
+Palani ,Hawaiian
+Alana ,Hawaiian
+Aloani ,Hawaiian
+Aloha ,Hawaiian
+Alohi ,Hawaiian
+Alona ,Hawaiian
+Anani ,Hawaiian
+Aulii ,Hawaiian
+Edena ,Hawaiian
+Haimi ,Hawaiian
+Iolana ,Hawaiian
+Kai ,Hawaiian
+Kailani ,Hawaiian
+Kaili ,Hawaiian
+Kaimi ,Hawaiian
+Kalama ,Hawaiian
+Kalani ,Hawaiian
+Kalena ,Hawaiian
+Kaley ,Hawaiian
+Kali ,Hawaiian
+Kalia ,Hawaiian
+Kalina ,Hawaiian
+Kaloni ,Hawaiian
+Kamea ,Hawaiian
+Kawena ,Hawaiian
+Keahi ,Hawaiian
+Keala ,Hawaiian
+Keandra ,Hawaiian
+Keanu ,Hawaiian
+Keiki ,Hawaiian
+Keilana ,Hawaiian
+Kekona ,Hawaiian
+Keola ,Hawaiian
+Kiana ,Hawaiian
+Kiele ,Hawaiian
+Kina ,Hawaiian
+Kinipela ,Hawaiian
+Konane ,Hawaiian
+Lahela ,Hawaiian
+Lanai ,Hawaiian
+Lani ,Hawaiian
+Lanikai ,Hawaiian
+Leilana ,Hawaiian
+Liliha ,Hawaiian
+Lilo ,Hawaiian
+Loe ,Hawaiian
+Lokelani ,Hawaiian
+Luana ,Hawaiian
+Mahala ,Hawaiian
+Mahina ,Hawaiian
+Maik ,Hawaiian
+Pekelo ,Hawaiian
+Uleki ,Hawaiian
+Makaio ,Hawaiian
+Makala ,Hawaiian
+Makana ,Hawaiian
+Makani ,Hawaiian
+Makelina ,Hawaiian
+Malana ,Hawaiian
+Maleah ,Hawaiian
+Malia ,Hawaiian
+Malu ,Hawaiian
+Mei ,Hawaiian
+Mekia ,Hawaiian
+Melia ,Hawaiian
+Mily ,Hawaiian
+Nalani ,Hawaiian
+Nalanie ,Hawaiian
+Nallely ,Hawaiian
+Napua ,Hawaiian
+Nira ,Hawaiian
+Noelani ,Hawaiian
+Okelani ,Hawaiian
+Ola ,Hawaiian
+Oliana ,Hawaiian
+Olina ,Hawaiian
+Onaona ,Hawaiian
+Palakika ,Hawaiian
+Palila ,Hawaiian
+Paterekia ,Hawaiian
+Pela ,Hawaiian
+Pelenakino ,Hawaiian
+Pelika ,Hawaiian
+Pelulio ,Hawaiian
+Puakai ,Hawaiian
+Puanani ,Hawaiian
+Roselani ,Hawaiian
+Sasilvia ,Hawaiian
+Ululani ,Hawaiian
+Walanika ,Hawaiian
+Wanaao ,Hawaiian
+Wanika ,Hawaiian
