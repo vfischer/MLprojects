@@ -22,7 +22,7 @@ url = "/home/vince/MachineLearning/test_origin_names/name_origin_occurences_lett
 #names = ['name', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'origin']
 dataset = read_csv(url, sep=',', header=0)
 
-#Load test dataset for one shot prediction
+#Load test dataset for oneshot prediction
 url_oneshot = "/home/vince/MachineLearning/test_origin_names/name_origin_occurences_letters_oneshot_validation.csv"
 #names = ['name', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'origin']
 dataset_oneshot = read_csv(url_oneshot, sep=',', header=0)
@@ -37,6 +37,10 @@ print(dataset.head(10))
 #print(dataset.describe())
 #class distribution
 #print(dataset.groupby('origin').size())
+
+#change the dataset to have the same amount of 'origins' (not bias the training)
+print(len(dataset.loc[dataset['origin'] == 'French']))
+print(dataset.groupby('origin').size())
 
 #box and whisker plot
 #dataset.plot(kind='box', subplots=True, layout=(26,26), sharex=False, sharey=False)
