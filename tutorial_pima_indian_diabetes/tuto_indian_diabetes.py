@@ -71,8 +71,15 @@ for name, model in models:
 #pyplot.show()
 
 #Make predictions on validation dataset
-model = SVC(gamma='auto')
+model = LinearDiscriminantAnalysis()
 model.fit(X_train, Y_train)
+
+#save model to a file
+filename = 'saved_model.sav'
+pickle.dump(model,open(filename, 'wb'))
+
+#loaded_model = pickle.load(open(filename, 'rb'))
+#result = loaded_model.score(X_validation,Y_validation)
 predictions = model.predict(X_validation)
 
 print(X_validation)
