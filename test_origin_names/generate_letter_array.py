@@ -41,7 +41,11 @@ def generate_array(name, max_name_length):
             if letter_dict[name_arr[letter]] == dict_i:
                 arr_letters[dict_i][letter] = 1
     
-    #print(arr_letters) 
+    #print(arr_letters.shape) 
+    #print(arr_letters)
+    arr_letters2 = np.reshape(arr_letters,max_name_length*len(letter_dict))
+    #print(arr_letters2.shape)
+    #print(arr_letters2)
     
-    # Returns the array (shape is (28,max_name_length))   (28 is 26 characters + space + special)
-    return arr_letters
+    # Returns the array (shape is (28*max_name_length))   (28 is 26 characters + space + special)
+    return arr_letters2

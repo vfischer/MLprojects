@@ -146,20 +146,26 @@ print(df_all.groupby('origin').size())
 # Now split dataset into train and test
 #X = pd.DataFrame(df_all, columns=['letters_array'])
 #y = pd.DataFrame(df_all, columns=['origin'])
-X = df_all.loc[:,'letters_array']
+X = df_all.loc[:,'letters_array'].to_numpy()
 y = df_all.loc[:,'origin']
-X_train, X_validation, Y_train, Y_validation = train_test_split(X, y, test_size=1-training_ratio, shuffle=False)
+
+# writes the X array into a numpy 2D array
+arr2d = np.zeros((320,308))
+for i in range(0,320):
+    for j in range(0,308):
+        arr2d[i][j] = X[i][j]
+
+X_train, X_validation, Y_train, Y_validation = train_test_split(arr2d, y, test_size=1-training_ratio, shuffle=False)
 
 #Keep info on the validation names
 X_validation_names = pd.DataFrame(df_all, columns=['name'])
 X_validation_names = X_validation_names[X_validation_names.index.isin(Y_validation.index)]
 
-print(X.shape)
-print(y.shape)
-print(X_train.shape)
-print(Y_train.shape)
+#print(arr2d.shape)
+#print(y.shape)
+#print(X_train.shape)
+#print(Y_train.shape)
 
-'''
 #Spot Check Algorithms
 models = []
 models.append(('LR', LogisticRegression(solver='liblinear', multi_class='ovr')))
@@ -178,36 +184,22 @@ for name, model in models:
     results.append(cv_results)
     names.append(name)
     print('%s: %f (%f)' % (name, cv_results.mean(), cv_results.std()))
-'''
+
 
 #Make predictions on validation dataset - Fit part
-model = SVC(gamma='auto')
+model = LogisticRegression(solver='liblinear', multi_class='ovr')
 model.fit(X_train, Y_train)
-quit()
-#Cooment those lines if you want to use the validation dataet from sklearn (not a file you inputted)
-#X_validation_names= pd.DataFrame(dataset_oneshot, columns=['name'])
-#X_validation = pd.DataFrame(dataset_oneshot, columns=['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'])
-#Y_validation = pd.DataFrame(dataset_oneshot, columns=['origin'])
 
 # Make predictions on validation dataset
 predictions = model.predict(X_validation)
 
-#print(len(X_validation_names))
-#print(len(Y_validation))
-#print(len(predictions))
-#print("X validation names:")
-#print(X_validation_names)
-#print("Y validation:")
-#print(Y_validation)
-#print("Predictions:")
-#print(predictions)
-
-for i in range(len(predictions)):
+# Loops over the validation dataset so you can see how good/bad the predictions are
+for i in range(0,len(predictions)):
     print("Name: " + str(X_validation_names.iloc[i]['name']))
-    print("Origin: " + str(Y_validation.iloc[i]['origin']))
+    print("Origin: " + str(Y_validation.iloc[i][:]))
     print("Prediction: " + str(predictions[i]))
     print("-----------------")
-    
+
 #evaluate predictions
 print("Accuracy score:")
 print(accuracy_score(Y_validation, predictions))
