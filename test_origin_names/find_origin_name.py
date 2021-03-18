@@ -150,9 +150,9 @@ X = df_all.loc[:,'letters_array'].to_numpy()
 y = df_all.loc[:,'origin']
 
 # writes the X array into a numpy 2D array
-arr2d = np.zeros((320,308))
-for i in range(0,320):
-    for j in range(0,308):
+arr2d = np.zeros((len(X),len(X[0])))
+for i in range(0,len(X)):
+    for j in range(0,len(X[0])):
         arr2d[i][j] = X[i][j]
 
 X_train, X_validation, Y_train, Y_validation = train_test_split(arr2d, y, test_size=1-training_ratio, shuffle=False)
@@ -207,3 +207,13 @@ print("Confusion matrix:")
 print(confusion_matrix(Y_validation, predictions))
 print("Classification report:")
 print(classification_report(Y_validation, predictions))
+
+# here's the part where you can manually try names
+manual_name="Pierre"
+if len(manual_name) > longest_name_length:
+    raise Exception("**** Name too long! ****")
+
+manual_X_validation = generate_array(manual_name,longest_name_length)
+manual_X_validation = np.reshape(manual_X_validation, (1, -1))
+manual_prediction = model.predict(manual_X_validation)
+print("The name", manual_name,"seems to be",str(manual_prediction))
