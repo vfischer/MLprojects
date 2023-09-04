@@ -22,10 +22,10 @@ from sklearn.metrics import accuracy_score
 from generate_letter_array import generate_array
 
 #Load datasets
-url_ch = "/home/vince/MachineLearning/test_origin_names/datasets/chinese.txt"
-url_fr = "/home/vince/MachineLearning/test_origin_names/datasets/french.txt"
-url_ru = "/home/vince/MachineLearning/test_origin_names/datasets/russian.txt"
-url_jp = "/home/vince/MachineLearning/test_origin_names/datasets/japanese.txt"
+url_ch = "/home/vince/Projects/MachineLearning/MLprojects/test_origin_names/datasets/chinese.txt"
+url_fr = "/home/vince/Projects/MachineLearning/MLprojects/test_origin_names/datasets/french.txt"
+url_ru = "/home/vince/Projects/MachineLearning/MLprojects/test_origin_names/datasets/russian.txt"
+url_jp = "/home/vince/Projects/MachineLearning/MLprojects/test_origin_names/datasets/japanese.txt"
 
 f_ch = open(url_ch, 'r')
 f_fr = open(url_fr, 'r')
@@ -209,7 +209,7 @@ print("Classification report:")
 print(classification_report(Y_validation, predictions))
 
 # here's the part where you can manually try names
-manual_name="Pierre"
+manual_name="Gauthier"
 if len(manual_name) > longest_name_length:
     raise Exception("**** Name too long! ****")
 
